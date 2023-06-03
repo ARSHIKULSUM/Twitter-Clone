@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className={styles.container}>
         
         <ul className={styles.bar}>
-            <li className={styles.bar2}>
+            <li className={styles.bar1}>
                 <a className= {styles.ancor} href=''>
                     <FaTwitter className={styles.bird}/></a>
             </li >

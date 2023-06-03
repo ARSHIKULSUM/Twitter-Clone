@@ -1,8 +1,10 @@
-.card{
+.outer{
     border: 1px solid rgb(216, 214, 214);
     height: 500px;
     width: 40vw;
     min-height: 500px;
+    z-index: 2;
+    background-color: red;
 }
 .head{
     margin: 2%;

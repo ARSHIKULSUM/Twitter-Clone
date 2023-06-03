@@ -12,6 +12,10 @@ import TweetCard from '../../Atoms/TweetCard/tweetCard';
 
 
 export default function Tweet(){
+   
+
+
+
     const[tweets, setTweets] =useState([]);
     const[text, setText]=useState([])
 
@@ -68,7 +72,9 @@ export default function Tweet(){
                 tweets.map((Tweet)=>{
                     return(
                         <>
+                            
                   <TweetCard key={Tweet.id} user={Tweet}/> 
+                  
                   </>
                     )
                 })

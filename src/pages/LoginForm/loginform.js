@@ -39,9 +39,14 @@ const LoginForm = () => {
     e.preventDefault();
   };
  
+
   const validateName = (input) => {
-    return input.trim().length > 0;
+   
+
+    const regex = /^[a-zA-Z]+$/;
+    return regex.test(input);
   };
+  
 
   const validatePhone = (input) => {
     const phoneRegex = /^\d{10}$/;

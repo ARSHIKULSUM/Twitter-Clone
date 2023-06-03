@@ -8,7 +8,7 @@ export default function Protected(props){
     useEffect(()=>{
         let isLogin = JSON.parse(localStorage.getItem("userData"));
         if(!isLogin){
-            navigate("/")
+            navigate("/home")
         }
     });
 
